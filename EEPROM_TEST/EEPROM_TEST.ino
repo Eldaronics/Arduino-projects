@@ -19,8 +19,8 @@ if (romadress>995)
 romadress = 0;
 if (Serial.available()>0)
 {
- char Serikontrol = Serial.read();
- if (Serikontrol =='1') 
+ char SerialControl = Serial.read();
+ if (SerialControl =='1') 
  
 }
 }
